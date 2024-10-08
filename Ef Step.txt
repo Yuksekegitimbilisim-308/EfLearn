@@ -1,0 +1,9 @@
+1-Proje Oluştur.
+2-EntityFramework paketini projemize dahil ediyoruz.
+3-AppDbContext adında bir sınıf oluşturuyoruz. Bu sınıfa DbContext sınıfını
+miras aldırıyoruz. Bu işlem bizim AppDbContextimizin DbContext sınıfı
+özellikleri taşımasını sağlar.
+4-AppDbContext sınıfımızın Constructorunda DbContext sınıfının Constructor metoduna 
+:base("") içerisinde ConnectionString i gönderiyoruz.
+5-Entitylerimizi oluşturuyoruz. C# classları veritabanındaki tablolar ile aynı isimde ve içerisindeki propertylerin
+isimleri, veri tipleri veritabanındaki ile aynı olmalıdır.
